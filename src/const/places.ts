@@ -266,7 +266,163 @@ V obci byl větrný mlýn, ten se stal předlohou k obrazu malíře Karla Tomana
         },
         otherImages: [],
     },
-    // TODO
+    15: {
+        id: 15,
+        name: 'Hühnerberg',
+        description: `V r.1930 64 obyvatel`,
+        coordinates: [49.6788759, 17.4685051],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '15/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '15/new.png',
+        },
+        otherImages: [],
+    },
+    16: {
+        id: 16,
+        name: 'Smilov (Schmeil)',
+        description: `Patrně jedna z nejstarších obcí v okolí, chybějí ovšem písemné záznamy
+Nejstarší dochovaná zmínka z poloviny patnáctého století
+Od r.1850 samostatná obec 
+V r.1930 zde žilo 691 obyvatel (689 Němců)
+Po válce Němci vysídleni a část obyvatelstva dosídlena (163 obyvatel)
+V místě obce se nachází dělostřelecká střelnice 
+Podle místní tradice ležela původní ves trošku někde jinde, zanikla za husitských válek 
+Ve Smilově se nacházel kostel sv. Jana Křtitele z r.1585
+Poslední dům zbourán až v r.1995 (vilka) - obýval ho důstojník Rudé armády`,
+        coordinates: [49.6957943, 17.4795925],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '16/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '16/new.png',
+        },
+        otherImages: [],
+    },
+    17: {
+        id: 17,
+        name: 'Bělá (Seibersdorf)',
+        description: `V r.1930 zde žilo 260 obyvatel`,
+        coordinates: [49.7292437, 17.4655606],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '17/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '17/new.png',
+        },
+        otherImages: [],
+    },
+    18: {
+        id: 18,
+        name: 'Keprtovice (Geppertsau)',
+        description: `První zmínky jsou z konce 16. století (starší v nepřímých pramenech)
+V r.1826 zde byla postavena škola 
+Samostatná obec od r.1850
+V r.1930 zde žilo 299 obyvatel (všichni Němci)
+Po vysídlení zůstala obec prázdnou a v r.1948 přejmenována na Údolnou 
+Dominantou obce byla kaple sv. Jiří, na jejíž stavbu přispěl i císař Ferdinand I. a jeho choť Marie Anna`,
+        coordinates: [49.6989731, 17.5571841],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '18/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '18/new.png',
+        },
+        otherImages: [],
+    },
+    19: {
+        id: 19,
+        name: 'Zigartice (Siegertsau)',
+        description: `První zmínka v listině moravského markraběte z r.1394
+Od r.1850 samostatná obec 
+V r.1930 zde žilo 300 obyvatel 
+Po válce jen velmi málo dosídlena (16 obyvatel)
+Dominantou obce byl kostel sv. Jana Nepomuckého 
+Nacházel se zde také vodní mlýn, záložna, dva hostince a divadelní, hasičský, tělocvičný a zemědělský spolek 
+V blízkosti obce se nachází vrch Steinberg, na kterém měl bývat hrad, jeho existence ovšem není doložena`,
+        coordinates: [49.6948797, 17.5808164],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '19/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '19/new.png',
+        },
+        otherImages: [],
+    },
+    20: {
+        id: 20,
+        name: 'Stará Voda (Altwasser)',
+        description: `Založení obce je datované do 13. století
+Významné poutní místo s kostelem sv. Jakuba většího a sv. Anny s přilehlým klášterem
+Od r.1850 samostatná obec 
+V r.1930 zde žilo 327 obyvatel (323 Němců)
+Po odsunu v obci nezůstal nikdo 
+Od r.2016 součástí města Libavá, místo ožívá zásluhou obnoveného barokního kostela`,
+        coordinates: [49.7408285, 17.5704758],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '20/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '20/new.png',
+        },
+        otherImages: [],
+    },
+    21: {
+        id: 21,
+        name: 'Vojnovice (Kriegsdorf)',
+        description: `Poprvé se v písemných zdrojích objevuje na začátku 16. století 
+Od roku 1875 samostatná obec
+V r.1930 zde žilo 222 obyvatel (221 Němců) 
+Nejviditelnějším pozůstatkem obce jsou zbytky mlýna, ve kterém se vyráběla elektrická energie pro celou obec 
+Náboženským centrem obce byl filiální kostel sv.Trojice
+V obci se nacházela výrobna lihovin a sýrů`,
+        coordinates: [49.7226667, 17.5934249],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '21/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '21/new.png',
+        },
+        otherImages: [],
+    },
+    22: {
+        id: 22,
+        name: 'Rudoltovice (Rudelzau)',
+        description: `První přímý pramen až ze 17.století, nepřímo můžeme obci datovat do začátku století 15.
+Od r.1850 samostatná obec 
+V r.1930 zde žilo 1063 obyvatel (1028 Němců)
+Po vyhnání Němců dosídlena na 972 obyvatel 
+Velká středisková obec s farností, poštovním úřadem a četnickou stanicí 
+V okolí obce probíhala hornická činnost (olovo, stříbro) 
+V obci byla také čtyřtřídní obecná škola a dvouroční pokračovací škola
+Rudoltovice měly také vodní družstva, 2 pily, 2 vodní mlýny, záložnu „Raiffeisenku“ a také 4 hostince
+Ze spolků zde působily např. všeodborový, 2 zemědělské, kasino, hasičský a pěvecký`,
+        coordinates: [49.7250444, 17.6260955],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '22/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '22/new.png',
+        },
+        otherImages: [],
+    },
 };
 
 export {PLACES};
