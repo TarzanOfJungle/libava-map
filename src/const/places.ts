@@ -9,7 +9,7 @@ Od 1850 samostatná obec
 V r.1930 zde žilo 1927 obyvatel (1890 Němců) 
 V součastnosti se v místě nachází tankodrom, dochoval se pouze lovecký zámeček  
 Významné hospodářské centrum oblasti, továrna, sodovkárna, cihelna, lihovar, těžba břidlice
-Před 20. stoletím zanikly dvě šlechtická sídla, středověká tvrz a barokní zámek`,
+Před 20. stoletím zanikla dvě šlechtická sídla, středověká tvrz a barokní zámek`,
         coordinates: [49.6681534, 17.4958308],
         oldImgage: {
             description: '1947',
@@ -24,13 +24,13 @@ Před 20. stoletím zanikly dvě šlechtická sídla, středověká tvrz a barok
     2: {
         id: 2,
         name: 'Kyjanice',
-        description: `první zmínky z 16.století
-                    do první půlky 18. století známá jako Kyjanický mlýn
-                    v r. 1892 zde postavila firma Losert parní pilu (v r.1920 200 zaměstnanců)
+        description: `První zmínky z 16.století
+                    Do první půlky 18. století známá jako Kyjanický mlýn
+                    V r. 1892 zde postavila firma Losert parní pilu (v r.1920 200 zaměstnanců)
                     Chytil toto místo v roce 1921 uvádí jako skupinu chalup s vodním a parním mlýnem.
-                    v r. 1932 šest domů s 87 obyvateli
-                    po r. 1945 vysídleno německé obyvatelstvo a mlýn i domy zbourány (vojenský újezd)
-                    nejdůležitější byl mlýn, dnes je zde jen silnice na kterou se napojují lesní cesty, někdy slouží k těžbě dřeva, podobně jako před 1945 `,
+                    V r. 1932 šest domů s 87 obyvateli
+                    Po r. 1945 vysídleno německé obyvatelstvo a mlýn i domy zbourány (vojenský újezd)
+                    Nejdůležitější byl mlýn, dnes je zde jen silnice na kterou se napojují lesní cesty, někdy slouží k těžbě dřeva, podobně jako před 1945 `,
         coordinates: [49.5874944, 17.5207271],
         oldImgage: {
             description: '1947',
@@ -45,13 +45,13 @@ Před 20. stoletím zanikly dvě šlechtická sídla, středověká tvrz a barok
     3: {
         id: 3,
         name: 'Ranošov (Prusinowitz)',
-        description: `nejstarší písemná zmínka z r. 1355 
-r. 1491 pustá ves, znovuzaložena r. 1656 - samostatná obec od r. 1905 
-v obci bylo sídlo lesního revíru velkostatku Veselíčko a obecná škola
-v r. 1930 246 obyvatel
-po Druhé světové válce se ocitla ve vojenském prostoru a byla zničena 
-2016 se katastr stal součástí obce Kozlov 
-z původní zástavby zůstala pouze myslivna `,
+        description: `Nejstarší písemná zmínka z r. 1355 
+R. 1491 pustá ves, znovuzaložena r. 1656 - samostatná obec od r. 1905 
+V obci bylo sídlo lesního revíru velkostatku Veselíčko a obecná škola
+V r. 1930 246 obyvatel
+Po Druhé světové válce se ocitla ve vojenském prostoru a byla zničena 
+V r. 2016 se katastr stal součástí obce Kozlov 
+Z původní zástavby zůstala pouze myslivna `,
         coordinates: [49.5928021, 17.5403163],
         oldImgage: {
             description: '1947',
@@ -67,7 +67,7 @@ z původní zástavby zůstala pouze myslivna `,
         id: 4,
         name: 'Sklárna (Glashütte)',
         description: `Sklárna v provozu od r. 1821 - příiliv obyvatel do oblasti (Heřmanice)  
-v r.1843 změstnávala 188 dělníků`,
+V r.1843 změstnávala 188 dělníků`,
         coordinates: [49.6263471, 17.5895611],
         oldImgage: {
             description: '1938',
@@ -83,7 +83,7 @@ v r.1843 změstnávala 188 dělníků`,
         id: 5,
         name: 'Heřmánky (Hermsdorf)',
         description: `První zmínky 13. století 
-v 16. století ves zpustla a znovu byla osídlena až v roce 1711 
+V 16. století ves zpustla a znovu byla osídlena až v roce 1711 
 Do 1923 osada obce Boškov
 v r. 1930 120 obyvatel (110 němců)`,
         coordinates: [49.6479275, 17.6024485],
@@ -115,12 +115,12 @@ v r. 1930 120 obyvatel (110 němců)`,
     7: {
         id: 7,
         name: 'Milovany (Milbes)',
-        description: `první zminka z počátku 14. století  
-od r.1850 samostatná obec
-v r.1930 424 obyvatel (419 Němců) 
-v obci byla fara a kostel sv. Kateřiny z r.1730 (farnost zrušena 1946) 
-zdejší rychta jedna z největších v okolí
-dle pramenů byl v obci bohatý kulturní a společenský život (hasičský a tělovýchovný spolek), dále také divadelní spolek a v okolí vyhlášená kapela Johanna Stixe`,
+        description: `První zminka z počátku 14. století  
+Od r.1850 samostatná obec
+V r.1930 424 obyvatel (419 Němců) 
+V obci byla fara a kostel sv. Kateřiny z r.1730 (farnost zrušena 1946) 
+Zdejší rychta jedna z největších v okolí
+Dle pramenů byl v obci bohatý kulturní a společenský život (hasičský a tělovýchovný spolek), dále také divadelní spolek a v okolí vyhlášená kapela Johanna Stixe`,
         coordinates: [49.6667993, 17.6057854],
         oldImgage: {
             description: '1947',
@@ -135,10 +135,10 @@ dle pramenů byl v obci bohatý kulturní a společenský život (hasičský a t
     8: {
         id: 8,
         name: 'Čermná (Gross Dittersdrof)',
-        description: `první zmínky z počátku 14. století 
-od r.1850 samostatná politická obec  
+        description: `První zmínky z počátku 14. století 
+Od r.1850 samostatná politická obec  
 1930 zde bylo 674 obyvatel (662 Němeců) 
-v obci byly dva vodní mlýny, dva větrné mlýny, pošta, záložna, pila, hasičská zbrojnice, škola, hostince, obchody a také fara s kostelem sv. Máří Magdaleny `,
+V obci byly dva vodní mlýny, dva větrné mlýny, pošta, záložna, pila, hasičská zbrojnice, škola, hostince, obchody a také fara s kostelem sv. Máří Magdaleny `,
         coordinates: [49.6598298, 17.5745326],
         oldImgage: {
             description: '1947',
@@ -420,6 +420,69 @@ Ze spolků zde působily např. všeodborový, 2 zemědělské, kasino, hasičsk
         newImage: {
             description: '2024',
             imageUrl: '22/new.png',
+        },
+        otherImages: [],
+    },
+    23: {
+        id: 23,
+        name: 'Barnov (Bernhau)',
+        description: `Obec vznikla ve 14. století jako hornická osada
+Od r.1850 samostatnou obcí 
+V r.1930 zde žilo 353 obyvatel (343 Němců)
+Po druhé světové válce Němci vysídleni a obec částečně dosídlena (164 obyvatel)
+V okolí obce se nacházely rudné doly, v druhé polovině 19. století tady bylo zaměstnáno téměř 300 horníků`,
+        coordinates: [49.7166404, 17.6675839],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '23/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '23/new.png',
+        },
+        otherImages: [],
+    },
+    24: {
+        id: 24,
+        name: 'Nové Oldřůvky (Neudorf)',
+        description: `Vznikly zřejmě již ve 13. století
+První písemné známky z poloviny 15.století 
+Od r.1850 samostatná obec 
+V r.1930 zde žilo 274 obyvatel (všichni Němci)
+Po válce obec dosídlena na 151 obyvatel 
+Nejvýznamnější budovou byl filiální kostel sv. Jana Křtitele z r.1784 
+Jediným pozůstatkem v obci zůstal železobetonový most přes Odru z r.1908, který byl ve své době první pevný most přes Odru od jejího pramene
+Do vojenského újezdu zařazena jako jedna z posledních až v roce 1952 
+Škola byla v obci postavena v roce 1793. Byl zde mlýn a pila`,
+        coordinates: [49.7507531, 17.6772857],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '24/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '24/new.png',
+        },
+        otherImages: [],
+    },
+    25: {
+        id: 25,
+        name: 'Rejchartice (Reigersdorf)',
+        description: `První doklad v pramenech se datuje do r.1269
+Roku 1785 postavena jednotřídní škola, v obci se nacházela také obecní knihovna
+Od r.1850 samostatná obec 
+V r.1930 zde žilo 235 obyvatel (všichni Němci)
+Obec částečně dosídlena po druhé světové válce (v r.1961 ještě 75 obyvatel)
+Konec obce zapříčinila sovětská armáda v r.1968, která zabrala nedaleké vojenské cvičiště a domy využila jako stavební materiál 
+Nacházel se zde také kostel sv. Antonína Paulánského, který měli zbořit sovětští vojáci`,
+        coordinates: [49.8115178, 17.5229284],
+        oldImgage: {
+            description: '1947',
+            imageUrl: '25/old.png',
+        },
+        newImage: {
+            description: '2024',
+            imageUrl: '25/new.png',
         },
         otherImages: [],
     },

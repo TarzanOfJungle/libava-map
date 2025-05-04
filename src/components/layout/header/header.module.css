@@ -29,7 +29,7 @@
 }
 
 .button, .selectedButton {
-    background-color: #3C3D37;
+    background-color: transparent;
     color: #ECDFCC;
     border: none;
     padding: 0.5rem 1rem;

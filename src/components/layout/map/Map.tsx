@@ -9,23 +9,34 @@ interface MapProps {
     setSelectedPlaceId: (id: number | null) => void;
 }
 
-// Define custom marker icons
-const defaultIcon = new L.Icon({
-    iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    shadowSize: [41, 41],
+// const defaultIcon = new L.Icon({
+//     iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
+//     iconSize: [25, 41],
+//     iconAnchor: [12, 41],
+//     popupAnchor: [1, -34],
+//     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+//     shadowSize: [41, 41],
+// });
+
+// const selectedIcon = new L.Icon({
+//     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+//     iconSize: [25, 41],
+//     iconAnchor: [12, 41],
+//     popupAnchor: [1, -34],
+//     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+//     shadowSize: [41, 41],
+// });
+
+const ruinIcon = new L.Icon({
+    iconUrl: 'ruined-white.png',
+    iconSize: [40, 40],
+    popupAnchor: [0, -20],
 });
 
-const selectedIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    shadowSize: [41, 41],
+const selectedRuinIcon = new L.Icon({
+    iconUrl: 'ruined-green.png',
+    iconSize: [40, 40],
+    popupAnchor: [0, -20],
 });
 
 const Map = ({...props}: MapProps) => {
@@ -43,7 +54,7 @@ const Map = ({...props}: MapProps) => {
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     />
                 </LayersControl.BaseLayer>
-                <LayersControl.BaseLayer name="Letecká">
+                <LayersControl.BaseLayer name="Satelitní">
                     <TileLayer
                         url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
                         attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
@@ -54,7 +65,7 @@ const Map = ({...props}: MapProps) => {
                 <Marker
                     key={place.id}
                     position={place.coordinates as LatLngExpression}
-                    icon={props.selectedPlaceId === place.id ? selectedIcon : defaultIcon}
+                    icon={props.selectedPlaceId === place.id ? selectedRuinIcon : ruinIcon}
                     eventHandlers={{
                         click: () => handleMarkerClick(place.id),
                     }}

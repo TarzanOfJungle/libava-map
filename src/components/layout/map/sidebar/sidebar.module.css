@@ -5,7 +5,7 @@
     display: flex; 
     flex-direction: column;
     color: #3C3D37;
-    background-color: #ECDFCC;
+    background-color: rgba(236, 223, 204, 0.9);
     padding: 1rem;
     border: #3C3D37 1px solid;
     box-sizing: border-box;

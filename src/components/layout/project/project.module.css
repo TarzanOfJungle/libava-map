@@ -1,7 +1,60 @@
 .page {
     color: #697565;
     background-color: #ECDFCC;
-    padding: 2rem 1rem 0 1rem;
     width: 100%;
     height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: blur(6px);
+}
+
+.appContainer,
+.projectContainer {
+    position: absolute;
+    width: 30vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #3C3D37;
+    background-color: rgba(236, 223, 204, 0.6);
+    padding: 1rem;
+}
+
+.appContainer {
+    top: 20vh;
+    left: 10vw;
+}
+
+.projectContainer {
+    bottom: 20vh;
+    right: 10vw;
+}
+
+.poemContainer {
+    position: absolute;
+    bottom: -100px;
+    left: 18vw;
+    width: 30vw;
+    opacity: 0;
+    z-index: 500;
+
+    color:#ECDFCC;
+    /* background-color: rgba(236, 223, 204, 0.6); */
+}
+  
+.slide {
+    animation: slideUp 1s ease-out forwards;
+}
+  
+@keyframes slideUp {
+    to {
+      bottom: 10vh;
+      opacity: 1;
+    }
 }

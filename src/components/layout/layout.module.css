@@ -1,6 +1,7 @@
 .header {
-    background-color: #3C3D37;
+    /* background-color: #3C3D37; */
     color: #ECDFCC;
+    background-color: rgba(60, 61, 55, 0.9);
     text-align: center;
     padding: 0.5rem;
     left: 50%;
@@ -36,7 +37,6 @@
 
 .sidebar {
     border-radius: 16px 0 0 0;
-    background-color: #333;
     color: #ECDFCC;
     height: 90vh;
     width: 500px;
