@@ -1,7 +1,17 @@
 import { Box } from '@mui/material';
 import styles from './locality.module.css';
+import YouTubePlayer from '../../common/youtube_player/YouTubePlayer';
+import { YouTubeProps } from 'react-youtube';
 
 const Locality= () => {
+    const opts: YouTubeProps['opts'] = {
+            height: '680px',
+            width: '1220px',
+            playerVars: {
+              autoplay: 0,
+            },
+          };
+
     return (
         <Box className={styles.page}>
             <Box className={styles.header}>
@@ -37,40 +47,9 @@ const Locality= () => {
                 <p>
                     {`Každoročně se koná akce nazvaná "Bílý kámen", během níž je území újezdu zpřístupněno veřejnosti. Návštěvníci mají možnost prozkoumat zaniklé obce, přírodní krásy a historické památky, které se na území újezdu nacházejí.`}
                 </p>
-                {/* <pre>{`Proč’s jen rozbil skřipky svoje?
-hoho, předčasně jsi zmlk’;
-Na Sudetsku, slyšíš? boje,
-však tam řádí ještě vlk!
-
-Naši tam jsou vyděděnci,
-schnoucí jsou tam haluzí;
-jazyka, ba, vykleštěnci,
-vlastním v domě podruzi;
-
-barabizny jejich školy,
-učebná síň páchne - stáj;
-zříceniny ze stodoly
-školou pro tu českou - láj!
-
-paláce co zatím hostí
-Němců odnož v přepychu;
-naší bídy není dosti,
-dál nám pít’ žluč z kalichu.
-
-Dřív nás tiskli Francsefové,
-dávali nás v područí;
-a teď - kdo ?... vem skřipky nové,
-barde, Petře Bezruči!
-
-Projdi Hlučín, po Sudetsku,
-hraničářů sejdi kruh;
-zahraj, jak jsi hrával v Slezsku,
-až by vládcům přešel sluch.
-
-Až by struny popraskaly,
-jedna jen by zůstala,
-která srdce láme žaly,
-od hněvu ta zoufalá!`}</pre> */}
+                <Box className={styles.videoContainer}>
+                    <YouTubePlayer videoId='M4UfdBLyu84' opts={opts} />
+                </Box>
             </Box>
         </Box>
     );

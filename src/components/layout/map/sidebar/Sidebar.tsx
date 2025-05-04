@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import { PLACES } from '../../../../const/places';
 import styles from './sidebar.module.css';
 import CloseIcon from '@mui/icons-material/Close';
-import EnlargeableImage from '../../../common/EnlargeableImage';
+import EnlargeableImage from '../../../common/enlargeable_image/EnlargeableImage';
 
 interface SidebarProps {
     selectedPlaceId: number | null;

@@ -43,3 +43,10 @@
 .title > h1 {
     margin-bottom: 0;
 }
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
