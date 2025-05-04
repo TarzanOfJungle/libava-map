@@ -26,7 +26,7 @@ const Project = () => {
                     {`O aplikaci Libavá Map`}
                 </Typography>
                 <p>
-                    {`Libavá Map je veřejnosti přístupná webová aplikace, jež slouží jako platforma pro zmapování a dokumentaci zaniklých obcí v oblasti vojenského újezdu Libavá.`}
+                    {`Libavá Map je veřejně přístupná webová aplikace, jež slouží jako platforma pro zmapování a dokumentaci zaniklých obcí v oblasti vojenského újezdu Libavá.`}
                 </p>
                 <p>
                     {`Aplikace si klade za cíl přiblížit historii oblasti interaktivní formou a nabídnout uživatelům možnost dozvědět se shrnující informace o jednotlivých obcích prostřednictvím interaktivní mapy, která obsahuje údaje o lokalitách, včetně historických fotografií.`}

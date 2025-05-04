@@ -20,7 +20,7 @@ const YouTubePlayer = ({...props}: YouTubePlayerProps) => {
 //     },
 //   };
 
-  return <YouTube videoId={props.videoId} opts={props.opts} onReady={onPlayerReady} />;
+return <YouTube videoId={props.videoId} opts={props.opts} onReady={onPlayerReady} />;
 }
 
 export default YouTubePlayer;
