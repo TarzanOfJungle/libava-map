@@ -10,6 +10,8 @@ interface SidebarProps {
 }
 
 interface DescribedImageProps {
+    widgth?: number;
+    height?: number;
     imageUrl: string;
     description: string;
 }
@@ -20,8 +22,8 @@ const DescribedImage = ({...props}: DescribedImageProps) => {
             <EnlargeableImage
                 src={props.imageUrl}
                 alt={props.description}
-                width={200}
-                height={200}
+                width={props.widgth || 200}
+                height={props.height || 200}
             />
             <Box className={styles.descriptionContainer}>
                 <Typography className={styles.description} variant="caption">
@@ -63,6 +65,17 @@ const Sidebar = ({...props}: SidebarProps) => {
                                 imageUrl={place.newImage.imageUrl}
                                 description={place.newImage.description}
                             />   
+                        </Box>
+                        <Box className={styles.additionalImagesContainer}>
+                            {place.otherImages.map((image, index) => (
+                                <DescribedImage
+                                    key={index}
+                                    imageUrl={image.imageUrl}
+                                    description={image.description}
+                                    widgth={100}
+                                    height={100}
+                                />
+                            ))}
                         </Box>
                     </Box>
                 </Box>

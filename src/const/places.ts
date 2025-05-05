@@ -19,7 +19,24 @@ Před 20. stoletím zanikla dvě šlechtická sídla, středověká tvrz a barok
             description: '2024',
             imageUrl: '1/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1959',
+                imageUrl: '1/1959.png',
+            },
+            {
+                description: 'Velká Střelná',
+                imageUrl: '1/village.png',
+            },
+            {
+                description: 'Kostel',
+                imageUrl: '1/church.png',
+            },
+            {
+                description: 'Velká Střelná',
+                imageUrl: '1/postcard.png',
+            },
+        ],
     },
     2: {
         id: 2,
@@ -40,7 +57,24 @@ Před 20. stoletím zanikla dvě šlechtická sídla, středověká tvrz a barok
             description: '2024',
             imageUrl: '2/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '2/1961.png',
+            },
+            {
+                description: 'Ruiny schodů',
+                imageUrl: '2/stairs.png',
+            },
+            {
+                description: 'Bývalý úl',
+                imageUrl: '2/hive.png',
+            },
+            {
+                description: 'Památník',
+                imageUrl: '2/memorial.png',
+            },
+        ],
     },
     3: {
         id: 3,
@@ -61,7 +95,20 @@ Z původní zástavby zůstala pouze myslivna `,
             description: '2024',
             imageUrl: '3/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '3/1961.png',
+            },
+            {
+                description: 'Hřbitov',
+                imageUrl: '3/cemetery.png',
+            },
+            {
+                description: 'Poslední stavení',
+                imageUrl: '3/house.png',
+            },
+        ],
     },
     4: {
         id: 4,
@@ -77,7 +124,16 @@ V r.1843 změstnávala 188 dělníků`,
             description: '2024',
             imageUrl: '4/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '4/1961.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '4/postcard.png',
+            },
+        ],
     },
     5: {
         id: 5,
@@ -95,7 +151,16 @@ v r. 1930 120 obyvatel (110 němců)`,
             description: '2025',
             imageUrl: '5/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '5/1961.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '5/postcard.png',
+            },
+        ],
     },
     6: {
         id: 6,
@@ -110,7 +175,12 @@ v r. 1930 120 obyvatel (110 němců)`,
             description: '2024',
             imageUrl: '6/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '6/1961.png',
+            },
+        ],
     },
     7: {
         id: 7,
@@ -130,7 +200,32 @@ Dle pramenů byl v obci bohatý kulturní a společenský život (hasičský a t
             description: '2024',
             imageUrl: '7/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1937',
+                imageUrl: '7/1937.png',
+            },
+            {
+                description: '1961',
+                imageUrl: '7/1961.png',
+            },
+            {
+                description: '1971',
+                imageUrl: '7/1971.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '7/postcard.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '7/postcard2.png',
+            },
+            {
+                description: 'Milovany',
+                imageUrl: '7/village.png',
+            },
+        ],
     },
     8: {
         id: 8,
@@ -148,7 +243,20 @@ V obci byly dva vodní mlýny, dva větrné mlýny, pošta, záložna, pila, has
             description: '2024',
             imageUrl: '8/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '8/1961.png',
+            },
+            {
+                description: 'Památník',
+                imageUrl: '8/memorial.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '8/postcard.png',
+            },
+        ],
     },
     9: {
         id: 9,
@@ -165,13 +273,19 @@ V r.1930 255 obyvatel (250 Němců)`,
             description: '2024',
             imageUrl: '9/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '9/1961.png',
+            },
+        ],
     },
     10: {
         id: 10,
         name: 'Popelný kout (Ascherwinkel)',
         description: `V r.1930 34 obyvatel  
-Patřil k Čermné`,
+Patřil k Čermné
+Samota, pár domů a myslivna`,
         coordinates: [49.6680376, 17.5600883],
         oldImgage: {
             description: '1947',
@@ -199,7 +313,12 @@ V obci se nacházela škola, hasičská zbrojnice, záložna, knihovna, hostinec
             description: '2024',
             imageUrl: '11/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '11/1961.png',
+            },
+        ],
     },
     12: {
         id: 12,
@@ -220,7 +339,24 @@ V terénu jsou patrné rozvaliny zbořených domů`,
             description: '2024',
             imageUrl: '12/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '12/1961.png',
+            },
+            {
+                description: 'Varhošť',
+                imageUrl: '12/village.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '12/postcard.png',
+            },
+            {
+                description: 'Ruiny',
+                imageUrl: '12/ruins.png',
+            },
+        ],
     },
     13: {
         id: 13,
@@ -242,7 +378,28 @@ V obci byla katolická fara a farní kostel Nejsvětější trojice z 16. stolet
             description: '2024',
             imageUrl: '13/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1957',
+                imageUrl: '13/1957.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '13/postcard.png',
+            },
+            {
+                description: 'Ruiny kostela',
+                imageUrl: '13/ruin.png',
+            },
+            {
+                description: 'Jestřabí',
+                imageUrl: '13/village.png',
+            },
+            {
+                description: 'Jestřabí',
+                imageUrl: '13/village2.png',
+            },
+        ],
     },
     14: {
         id: 14,
@@ -264,7 +421,28 @@ V obci byl větrný mlýn, ten se stal předlohou k obrazu malíře Karla Tomana
             description: '2024',
             imageUrl: '14/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: 'Tomanův obraz',
+                imageUrl: '14/toman.png',
+            },
+            {
+                description: 'Mlýn',
+                imageUrl: '14/windmill.png',
+            },
+            {
+                description: '1958',
+                imageUrl: '14/1958.png',
+            },
+            {
+                description: '1966',
+                imageUrl: '14/1966.png',
+            },
+            {
+                description: 'Nepřívaz',
+                imageUrl: '14/village.png',
+            },
+        ],
     },
     15: {
         id: 15,
@@ -279,7 +457,12 @@ V obci byl větrný mlýn, ten se stal předlohou k obrazu malíře Karla Tomana
             description: '2024',
             imageUrl: '15/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1959',
+                imageUrl: '15/1959.png',
+            },
+        ],
     },
     16: {
         id: 16,
@@ -302,7 +485,24 @@ Poslední dům zbourán až v r.1995 (vilka) - obýval ho důstojník Rudé arm�
             description: '2024',
             imageUrl: '16/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1966',
+                imageUrl: '16/1966.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '16/postcard.png',
+            },
+            {
+                description: 'Mlýn',
+                imageUrl: '16/windmill.png',
+            },
+            {
+                description: 'Náves',
+                imageUrl: '16/square.png',
+            },
+        ],
     },
     17: {
         id: 17,
@@ -317,7 +517,16 @@ Poslední dům zbourán až v r.1995 (vilka) - obýval ho důstojník Rudé arm�
             description: '2024',
             imageUrl: '17/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '17/1961.png',
+            },
+            {
+                description: 'Bělá',
+                imageUrl: '17/village.png',
+            },
+        ],
     },
     18: {
         id: 18,
@@ -337,7 +546,16 @@ Dominantou obce byla kaple sv. Jiří, na jejíž stavbu přispěl i císař Fer
             description: '2024',
             imageUrl: '18/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1959',
+                imageUrl: '18/1959.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '18/postcard.png',
+            },
+        ],
     },
     19: {
         id: 19,
@@ -358,7 +576,16 @@ V blízkosti obce se nachází vrch Steinberg, na kterém měl bývat hrad, jeho
             description: '2024',
             imageUrl: '19/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1959',
+                imageUrl: '19/1959.png',
+            },
+            {
+                description: 'Zigartice',
+                imageUrl: '19/village.png',
+            },
+        ],
     },
     20: {
         id: 20,
@@ -378,7 +605,16 @@ Od r.2016 součástí města Libavá, místo ožívá zásluhou obnoveného baro
             description: '2024',
             imageUrl: '20/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1968',
+                imageUrl: '20/1968.png',
+            },
+            {
+                description: 'Současnost',
+                imageUrl: '20/church.jpg',
+            },
+        ],
     },
     21: {
         id: 21,
@@ -398,7 +634,24 @@ V obci se nacházela výrobna lihovin a sýrů`,
             description: '2024',
             imageUrl: '21/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1959',
+                imageUrl: '21/1959.png',
+            },
+            {
+                description: 'Vojnovice',
+                imageUrl: '21/village.png',
+            },
+            {
+                description: 'Kostel',
+                imageUrl: '21/church.png',
+            },
+            {
+                description: 'Vojnovice',
+                imageUrl: '21/village2.png',
+            },
+        ],
     },
     22: {
         id: 22,
@@ -421,7 +674,16 @@ Ze spolků zde působily např. všeodborový, 2 zemědělské, kasino, hasičsk
             description: '2024',
             imageUrl: '22/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1971',
+                imageUrl: '22/1971.png',
+            },
+            {
+                description: 'Rudoltovice',
+                imageUrl: '22/village.png',
+            },
+        ],
     },
     23: {
         id: 23,
@@ -440,7 +702,12 @@ V okolí obce se nacházely rudné doly, v druhé polovině 19. století tady by
             description: '2024',
             imageUrl: '23/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: 'Pohlednice',
+                imageUrl: '23/postcard.png',
+            },
+        ],
     },
     24: {
         id: 24,
@@ -463,7 +730,20 @@ Do vojenského újezdu zařazena jako jedna z posledních až v roce 1952
             description: '2024',
             imageUrl: '24/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1961',
+                imageUrl: '24/1961.png',
+            },
+            {
+                description: 'Nové Oldřůvky',
+                imageUrl: '24/village.png',
+            },
+            {
+                description: 'Nové Oldřůvky',
+                imageUrl: '24/village2.png',
+            },
+        ],
     },
     25: {
         id: 25,
@@ -484,7 +764,16 @@ Nacházel se zde také kostel sv. Antonína Paulánského, který měli zbořit 
             description: '2024',
             imageUrl: '25/new.png',
         },
-        otherImages: [],
+        otherImages: [
+            {
+                description: '1971',
+                imageUrl: '25/1971.png',
+            },
+            {
+                description: 'Pohlednice',
+                imageUrl: '25/postcard.png',
+            },
+        ],
     },
 };
 
