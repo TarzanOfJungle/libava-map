@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup, LayersControl } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, LayersControl, Tooltip } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L, { LatLngExpression } from 'leaflet';
 import styles from './map.module.css';
@@ -70,9 +70,9 @@ const Map = ({...props}: MapProps) => {
                         click: () => handleMarkerClick(place.id),
                     }}
                 >
-                    <Popup>
+                    <Tooltip direction="top" offset={[0, -20]} opacity={1} permanent={false}>
                         {place.name}
-                    </Popup>
+                    </Tooltip>
                 </Marker>
             ))}
         </MapContainer>
